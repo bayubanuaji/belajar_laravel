@@ -42,7 +42,7 @@
 						<td>{{ $p->pegawai_umur }}</td>
 						<td>{{ $p->pegawai_alamat }}</td>
 						<td>
-							<a class="btn btn-warning btn-sm" href="/pegawai/edit/{{ $p->pegawai_id }}">Edit</a>
+							<a class="navbar-form .btn-info" href="/pegawai/edit/{{ $p->pegawai_id }}">Edit</a>
 							<a class="btn btn-danger btn-sm" href="/pegawai/hapus/{{ $p->pegawai_id }}">Hapus</a>
 						</td>
 					</tr>
