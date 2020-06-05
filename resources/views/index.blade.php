@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tutorial Membuat Pencarian Pada Laravel - www.malasngoding.com</title>
+	<title>Tutorial Membuat Pencarian Pada Laravel - www.sukasukaane.com</title>
 	<link rel="stylesheet" type="text/css" href="{{ asset('/css/app.css') }}">
 </head>
 <body>
@@ -11,7 +11,7 @@
 			<div class="card-body">
 				
 
-				<h2 class="text-center"><a href="https://www.malasngoding.com">www.malasngoding.com</a></h2>
+				<h2 class="text-center"><a href="">www.sukasukane.com</a></h2>
 
 				<h3>Data Pegawai</h3>
 
@@ -19,12 +19,14 @@
 
 				<div class="form-group">
 					
-				</div>
+				
 				<form action="/pegawai/cari" method="GET" class="form-inline">
 					<input class="form-control" type="text" name="cari" placeholder="Cari Pegawai .." value="{{ old('cari') }}">
-					<input class="btn btn-primary ml-3" type="submit" value="CARI">
+					<input class="btn btn-primary ml-3" type="submit" value="Cari"> 
+					<a class="btn btn-primary ml-3" href="/pegawai/tambah">Tambah</a>
 				</form>
-
+				</div>
+				
 				<br/>
 
 				<table class="table table-bordered">
