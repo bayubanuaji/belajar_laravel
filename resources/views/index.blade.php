@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tutorial Membuat Pencarian Pada Laravel - www.sukasukaane.com</title>
+	<title>Pegawai PT - www.sukasukaane.com</title>
 	<link rel="stylesheet" type="text/css" href="{{ asset('/css/app.css') }}">
 </head>
 <body>
