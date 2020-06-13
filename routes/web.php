@@ -40,6 +40,9 @@ Route::post('/pegawai/update','PegawaiController@update');
 
 Route::get('/pegawai/hapus/{id}','PegawaiController@hapus');
 
+Route::get('pegawai/input', 'PegawaiController@input');
+Route::post('pegawai/proses', 'PegawaiController@proses');
+
 /*Route::get('dosen','DosenController@index');
 Route::get('/pegawai/{nama}', 'PegawaiController@index');
 Route::get('/formulir', 'PegawaiController@formulir');

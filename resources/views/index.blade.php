@@ -33,6 +33,7 @@
 					<tr>
 						<th>Nama</th>
 						<th>Jabatan</th>
+						<th>Email</th>
 						<th>Umur</th>
 						<th>Alamat</th>
 						<th>Opsi</th>
@@ -41,6 +42,7 @@
 					<tr>
 						<td>{{ $p->pegawai_nama }}</td>
 						<td>{{ $p->pegawai_jabatan }}</td>
+						<td>{{ $p->pegawai_email }}</td>
 						<td>{{ $p->pegawai_umur }}</td>
 						<td>{{ $p->pegawai_alamat }}</td>
 						<td>
