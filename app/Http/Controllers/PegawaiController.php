@@ -17,7 +17,7 @@ class PegawaiController extends Controller
 		return view('index',['pegawai' => $pegawai]);
 
 	}
-
+ 
 	public function cari(Request $request)
 	{
 		// menangkap data pencarian
@@ -41,13 +41,13 @@ class PegawaiController extends Controller
 	public function proses(Request $request)
     {
 		$messages = [
-			'required' => ':attribute wajib diisi',
-			'min' => ':attribute harus diisi minimal :min karakter',
-			'max' => ':attribute harus diisi maksimal :max karakter',
+			'required' => 'Kolom :attribute wajib diisi',
+			'min' => 'Kolom :attribute harus diisi minimal :min tahun',
+			'max' => 'Kolom :attribute harus diisi maksimal :max tahun',
 			'email' => 'Alamat :attribute tidak sesuai'
 		];
         $this->validate($request,[
-           'nama' => 'required|min:5|max:20',
+           'nama' => 'required',
 		   'jabatan' => 'required',
 		   'email' => 'email',
 		   'umur' => 'required|numeric|min:18|max:50',
